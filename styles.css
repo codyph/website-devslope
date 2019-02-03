@@ -20,6 +20,11 @@ p {
     
 }
 
+article p {
+    font-size: 35px;
+    padding: 20px;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -119,6 +124,13 @@ div.box {
         0 2px 3px 0 rgba(0,0,0,.1);
 }
 
+div.squirtleIcon img {
+    display: block;
+    margin: auto;
+    box-shadow: -2px -2px 20px 2px rgba(0, 0, 0, 0.15),
+        2px 2px 17px 2px rgba(0,0,0, 0.7) ;
+}
+
 button {
     font-size: 32px;
     font-weight: 700;
@@ -127,6 +139,12 @@ button {
     padding: 15px 60px;
     text-align: center;
     margin: 5px;
+    border-radius: 10px;
+}
+
+button.learnMore {
+    display: block;
+    margin: auto;
 }
 
 div.icon {
@@ -168,7 +186,27 @@ input[type="text"]{
     
 }
 
+footer.footsy {
+    background-color: #666;
+    padding-left: 10%;
+}
 
+footer.footsy h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+footer.footsy ul li {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+}
 
 
 /*########### Mobile ##############*/
@@ -203,15 +241,60 @@ input[type="text"]{
         text-align: left;
     }
     
+    h1.section2Header {
+        font-size: 45px;
+    }
+    
+    article p {
+        font-size: 24px;
+        text-align: center;
+    }
+    
     .col-6,
-    .col-4 {
+    .col-4,
+    .col-7,
+    .col-5 {
         width: 100%;
         margin: 0;
     }
     
-    div.box {
-        padding: 25 px 5px 5px;
+    footer.footsy {
+        padding-left: 3%;
+        padding-top: 1%;
+    }
+    
+    div.mobileStack {
         display: block;
+        width: 24%;
+        margin-right: 1.004673%
+    }
+    
+    div.mobileStack h1 {
+        font-size: 16px;
+    }
+    
+    div.mobileStack ul li {
+        font-size: 14px
+    }
+    
+    button.learnMore {
+        padding: 3% 6%;
+        font-size: 25px;
+        
+    }
+    
+    div.box {
+        padding: 25px 5px 5px;
+        display: block;
+    }
+    
+    div.squirtleIcon {
+        margin: 10px;
+    }
+    
+    div.squirtleIcon img {
+        width: 100%;
+        
     }
     
     div.leftSide-col,
