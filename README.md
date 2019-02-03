@@ -1,2 +1,2 @@
 # Website Previews
-![](WebsitePreview/image1.jpg)
+![](WebsitePreview/image1.JPG)
