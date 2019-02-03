@@ -1,2 +1,2 @@
-# website-devslope
-Website tutorial
+# Website Previews
+![](WebsitePreview/image1.jpg)
