@@ -9,6 +9,17 @@ body {
     margin: 0;
 }
 
+label {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 28px;
+    line-height: 1.2;
+    
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -41,6 +52,10 @@ body {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+* {
+    box-sizing: border-box;
+}
 
 /*########### Nav Bar #############*/
 
@@ -94,6 +109,31 @@ ul.topnav li.dropdownIcon {
     background: linear-gradient(#076DFF,#65A5FF);
 }
 
+div.box {
+    text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+        0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+button {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0069ff;
+    padding: 15px 60px;
+    text-align: center;
+    margin: 5px;
+}
+
+div.icon {
+    width: 100%;
+    
+}
+
 .leftSide-col {
     margin-left: 30%;
 }
@@ -107,6 +147,12 @@ h1.large {
     font-size: 56px;
     margin: 0;
     line-height: 70px;
+}
+
+h1.section2Header {
+    font-size: 60px;
+    text-align: center;
+    
 }
 
 form h2 {
@@ -157,9 +203,15 @@ input[type="text"]{
         text-align: left;
     }
     
-    .col-6 {
+    .col-6,
+    .col-4 {
         width: 100%;
         margin: 0;
+    }
+    
+    div.box {
+        padding: 25 px 5px 5px;
+        display: block;
     }
     
     div.leftSide-col,
@@ -169,6 +221,14 @@ input[type="text"]{
     
     input[type="text"] {
         width: 350px;
+    }
+    
+    .videoContainer iframe {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        
     }
 }
 
