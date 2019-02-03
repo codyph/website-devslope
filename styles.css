@@ -95,7 +95,11 @@ ul.topnav li.dropdownIcon {
 }
 
 .leftSide-col {
-    margin-left: 10%;
+    margin-left: 30%;
+}
+
+.rightSide-col {
+    margin-left: 15%;
 }
 
 h1.large {
@@ -113,7 +117,8 @@ input[type="text"]{
     font-size: 20px;
     width: 400px;
     min-width: 100px;
-    padding: 5px
+    padding: 5px;
+    border-radius: 10px;
     
 }
 
@@ -150,6 +155,20 @@ input[type="text"]{
     ul.topnav.responsive li a {
         display: block;
         text-align: left;
+    }
+    
+    .col-6 {
+        width: 100%;
+        margin: 0;
+    }
+    
+    div.leftSide-col,
+    div.rightSide-col {
+        margin: 15px;
+    }
+    
+    input[type="text"] {
+        width: 350px;
     }
 }
 
